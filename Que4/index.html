@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script rel="script/text" src="./script.js"></script>
+</head>
+<body>
+    <div class="container1">
+        <h6 id="heading-container">SESSION</h6>
+        <h1 id="timer">25:00</h1>
+    </div>
+
+    <div class="container2">
+        <h1 style="padding: 50px; font-size: 60px; border-color: 1px black; font: 1.8rem fira Sans, Sans-serif;">SESSION LENGTH</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="subcontainer1" style="background-color: rgb(52, 134, 241);" onclick="changeSessionLength(-1)"><h1>-</h1></div>
+        <div class="subcontainer2" style="background-color:grey;" id="sessionLength">25</div>
+        <div class="subcontainer3" style="background-color: rgb(52, 134, 241);" onclick="changeSessionLength(1)"><h1>+</h1></div>
+    </div>
+
+    <div class="container2">
+        <h1 style="padding: 50px; font-size: 60px; border-color: 1px black; font: 1.8rem fira Sans, Sans-serif;">BREAK LENGTH</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="subcontainer1" style="background-color: rgb(52, 134, 241);" onclick="changeBreakLength(-1)"><h1>-</h1></div>
+        <div class="subcontainer2" style="background-color:grey;" id="breakLength">25</div>
+        <div class="subcontainer3" style="background-color: rgb(52, 134, 241);" onclick="changeBreakLength(1)"><h1>+</h1></div>
+    </div>
+
+    <div class="main-container1">
+        <div class="btn" style="background-color: chocolate;" onclick="resetTimer()"><h1>Reset</h1></div>
+        <div class="btn" style="background-color: green;" onclick="startTimer()"><h1>Start</h1></div>
+    </div>
+</body>
+</html>
