@@ -7,7 +7,7 @@
 [Asiignment 2](./Que2/index.html)
 
 ### 3) Write a program to show different ways to create a function in javascript?
-[Assignment 3](./Que3/index.html)
+[Assignment 3](./Que3/script.js)
 
 ### 4) write a program to implement pomodoro using JavaScript DOM?
 [Assignment 4](./Que4/index.html)
